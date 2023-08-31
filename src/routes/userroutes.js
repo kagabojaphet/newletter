@@ -3,6 +3,6 @@ import usercontroller from "../controller/usercontroller";
 
 const router=express.Router();
 
-router.get("/",usercontroller.createUser)
+router.post("/",usercontroller.createUser)
 
 export default router
